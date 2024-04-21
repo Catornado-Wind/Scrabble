@@ -9,19 +9,19 @@ Rules:
 
 Input format:
 1. Enter the action you want to do:
-  "S" to pass turn
-  "E" to exchange tiles
-  "P" to place tiles
+  - "S" to pass turn
+  - "E" to exchange tiles
+  - "P" to place tiles
    
 3. If you want to exchange tiles:
   Enter space separated characters of the tiles you want to exchange.
 
 4. If you want to place tiles:
    Enter the play in this format "{STARTING COORDINATE} {DIRECTION} {WORD PLAYED WITH BLANKS NOT FILLED} {WORD PLAYED WITH BLANKS FILLED}"
-   STARTING COORDINATE: Like battleship coordinate i.e. A4, C7, K13
-   DIRECTION: "A" for across and "D" for down
-   WORD PLAYED WITH BLANKS NOT FILLED: The tiles you want to play + The tiles you want to play through in order i.e. TILES, PLA?ED
-   WORD PLAYED WITH BLANKS FILLED: If blanks are used type the full word with what the blank tiles represent i.e. PLAYED. If not, do not include anything (also do not include the space before it)
+   - STARTING COORDINATE: Like battleship coordinate i.e. A4, C7, K13
+   - DIRECTION: "A" for across and "D" for down
+   - WORD PLAYED WITH BLANKS NOT FILLED: The tiles you want to play + The tiles you want to play through in order i.e. TILES, PLA?ED
+   - WORD PLAYED WITH BLANKS FILLED: If blanks are used type the full word with what the blank tiles represent i.e. PLAYED. If not, do not include anything (also do not include the space before it)
 
 Extra Information:
 1. "?" represents blank tiles which can be any letter
@@ -37,8 +37,8 @@ Extra Information:
    "U": 4, "V": 2, "W": 2, "X": 1, "Y": 2, "Z": 1, "?": 2
    
 4. The cell colours represents the following:
-   Yellow star: Center
-   Light blue square: Double letter score
-   Blue square: Triple letter score
-   Yellow square: Double word score
-   Red square: Triple word score 
+   - Yellow star: Center
+   - Light blue square: Double letter score
+   - Blue square: Triple letter score
+   - Yellow square: Double word score
+   - Red square: Triple word score 
